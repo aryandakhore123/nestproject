@@ -46,4 +46,8 @@ export class BookController {
   findAllBooks(): string {
     return this.bookService.findBooks();
   }
+  @Get('/findAll')
+  findAllBookssss(): string {
+    return 'shsahdsadjksndsakjd'
+  }
 }
